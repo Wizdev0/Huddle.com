@@ -290,7 +290,7 @@ body{
     z-index: ;
     top: 60%; */
     position: absolute;
-    top: 563%;
+    top: 570%;
     left: 0;
     width: 100%;
     height: auto;
@@ -437,7 +437,7 @@ body{
 
 .alert-box{
     position: absolute;
-    top: 290%;
+    top: 275%;
     left: -28px;
     color: red;
     font-size: 12px;
@@ -780,7 +780,7 @@ body{
     position: absolute; */
     position: absolute;
     padding: 10%;
-    top: 527.9%;
+    top: 528.7%;
     height: 150%;
     
 }
