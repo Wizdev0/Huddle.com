@@ -803,7 +803,7 @@ body{
     margin-left: 20px;
     font-size: 2.7rem;
     position: absolute;
-    top: 45%;
+    top: 50%;
     font-family: 'poppins';
     color: white;
     
@@ -816,7 +816,7 @@ body{
 }
 
 .pt-7-sub{
-    margin-top: 185%;
+    margin-top: 190%;
     width: 90%;
     
     line-height: 1.5;
@@ -919,7 +919,7 @@ body{
     border-radius: 7%;
     font-family: 'open sans';
     font-weight: 600;
-    margin-left: 50%;
+    margin-left: 45%;
     font-weight: 800;
     font-family: 'poppins', sans-serif;
     cursor: pointer;
