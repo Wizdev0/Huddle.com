@@ -280,7 +280,7 @@ body{
     position: absolute; */
     position: relative;
     padding: 10%;
-    margin-top: 290px;
+    margin-top: 285px;
     
 }
 .foot-bg{
@@ -939,6 +939,501 @@ body{
 
 
 
+}
+
+
+/* TABLET */
+
+@media only screen  and (min-width:600px) and (max-width:768px) {
+    body{
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    .desktop-only{
+        display: none;
+    }
+    .mobile-only{
+        display: block;
+    }
+
+    /* HEADER */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    font-family: 'Poppins', sans-serif;
+}
+.h-name{
+   display: flex;
+   margin-left: 4%;
+   font-size: 190%;
+}
+
+.log{
+    margin-right: 9%;
+    border: 2px solid pink;
+    border-radius: 30px;
+    padding: 5px;
+    width: 30%;
+}
+
+.p-log{
+    font-size: 170%;
+    color: pink;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+
+/* PART ONE */
+.pt-1{
+  margin: 0 auto;
+  width: 100%;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  margin-top: 10%;
+    /* position: relative;
+    top: 70px; */
+}
+
+.pt-1-txt{
+    font-family: 'poppins', sans-serif;
+}
+
+.pt-1-h3{
+    width: 65%;
+    font-size: 140%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+}
+
+.pt-1-p{
+    text-align: center;
+    width: 85%;
+    margin-top: 10px;
+    margin-left: 10%;
+    font-size: 120%;
+}
+
+.pt-1-btn-div{
+    margin-top: 25px;
+}
+
+.pt-1-btn{
+    padding: 3%;
+    width: 50%;
+    color: white;
+    border-radius: 30px;
+    border: 2px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+    background-color:hsl(322, 100%, 66%);
+    margin: 0 auto;
+}
+
+/* PART TWO */
+
+.pt-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+  
+}
+
+.mock-up{
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+/* STATS */
+.stats{
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2.5rem;
+    margin-top: 10%;
+    font-family: 'open sans', sans-serif;
+}
+
+.commun,.commun-2{
+    width: 10%;
+    height: 30%;
+    
+}
+
+
+.stats-1-p, .stats-2-p{
+    font-size: 60%;
+    color: grey;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+
+}
+
+/* PART THREE */
+.pt-3-mob-background{
+    position: relative;
+    display: flex;
+    height: 710px;
+    width: 100%;
+    
+}
+
+.pt-3-bg-mobile{
+    position: absolute;
+    top: 120%;
+}
+
+.chill{
+    height: 135px;
+
+}
+
+.well{
+    height: 1300px;
+}
+
+
+.pt-3-image{
+    position: absolute;
+    left: 15%;
+    top: 135%;
+   z-index: 100;
+   width: 65%;
+   margin: 0 auto;
+}
+
+
+.pt-3-txt{
+    color: black;
+    position: absolute;
+    left: 5%;
+    top: 185%;
+    z-index: 1;
+    
+}
+
+.pt-3-h3{
+    font-size: 2.5rem;
+    font-family: 'open sans', sans-serif;
+    font-weight: 900;
+    margin-bottom: 40px;
+    margin-left: 20%;  
+}
+
+.pt-3-p{
+    width: 90%;
+    font-family: 'open sans', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 15%;
+    font-size: 1.5rem;
+    margin: 0 auto;
+}
+
+
+/* PART FOUR */
+
+.pt-4{
+    margin-top: 250%;
+    /* margin-bottom: 100px; */
+}
+
+.flowing-con{
+    width: 60%;
+    margin-left: 15%;
+}
+
+.pt-4-txt{
+    color: black;
+    position: absolute;
+    left: 10%;
+    top: 340%;
+    margin: 0 auto;
+}
+
+.pt-4-h3{
+    font-size: 2.5rem;
+    font-family: 'open sans', sans-serif;
+    font-weight: 900;
+    margin-bottom: 40px;
+    margin-left: 10%;  
+}
+
+.pt-4-p{
+    width: 90%;
+    font-family: 'open sans', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 2%;
+    font-size: 1.5rem;
+}
+
+
+/* PART FIVE */
+.pt-5-mob-background{
+    position: relative;
+    display: flex;
+    height: 410px;
+    width: 100%;
+   
+}
+    
+.pt-5-bg-mobile{
+    position: absolute;
+    top: 380%;
+    z-index: 100;
+}
+    
+.yes{
+    height: 200px;
+    
+}
+    
+.not{
+    height: 1100px;
+}
+    
+    
+.pt-5-image{
+    position: absolute;
+    left: 15%;
+    top: 8%;
+   z-index: 100;
+   width: 65%;
+   margin: 0 auto;
+}
+    
+    
+.pt-5-txt{
+    color: black;
+    position: absolute;
+    left: 5%;
+    top: 45%;
+    z-index: 1;
+        
+}
+    
+.pt-5-h3{
+    font-size: 2.5rem;
+    font-family: 'open sans', sans-serif;
+    font-weight: 900;
+    margin-bottom: 40px;
+    margin-left: 25%;  
+}
+    
+.pt-5-p{
+    width: 90%;
+    font-family: 'open sans', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+
+/* PART SIX */
+.pt-6{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 520%;
+}
+  
+.pt-6-txt{
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.pt-6-h3{
+    width: 110%;
+    font-size: 2.2rem;
+}
+
+.pt-1-btn{
+    font-size: 1.3rem;
+}
+
+/* PART SEVEN */
+.pt-7{
+
+    background-color: hsl(192, 100%, 9%);
+/*     margin-top: 60px;
+    position: absolute; */
+    position: absolute;
+    padding: 10%;
+    top: 528.97%;
+    height: 90%;
+    
+}
+.foot-mob-bg{
+/*     
+    width: 100%;
+    position: fixed;
+    z-index: ;
+    top: 60%; */
+    position: absolute;
+    top: 549.5%;
+    left: 0;
+    width: 100%;
+    height: auto;
+   
+}
+
+.f-name{
+    display: flex;
+    margin-left: 30px;
+    font-size: 2.7rem;
+    position: absolute;
+    top: 50%;
+    font-family: 'poppins';
+    color: white;
+    
+}
+
+.f-mess{
+    position: absolute;
+    top: 10%;
+    left: -48px;
+}
+
+.pt-7-sub{
+    margin-top: 75%;
+    width: 90%;
+    
+    line-height: 1.5;
+    color: white;
+    font-family: 'poppins';
+    font-size: 1.3rem;
+}
+
+/* CONTACTS */
+
+.contacts{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 30px;
+    left: -27px;
+    font-size: 1.3rem;
+}
+
+
+.number{
+    color: white;
+    font-family: 'open sans';
+}
+
+.mail{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 55px;
+    left: -27px;
+    font-size: 1.3rem;
+}
+
+.add{
+    color: white;
+    font-family: 'open sans';
+}
+
+/* SOCIALS */
+
+.socials{
+    position: relative;
+    left: -27px;
+    top: 120px;
+   color: white;
+   display: flex;
+   gap: 15px;
+   font-size: 1.3rem;
+  
+}
+
+.facebook, .instagram, .twitter{
+    width: 40px;
+    cursor: pointer;
+  
+}
+
+/* PART EIGHT */
+.pt-8{
+    position: absolute;
+    left: 10%;
+    top: 8%;
+   color: white;
+   gap: 15px;
+   z-index: 100;
+}
+
+.pt-8-head{
+    display: flex;
+    font-size: 1.5rem;
+    position: absolute;
+    top: -60%;
+    left: 3%;
+    font-family: 'poppins';
+    color: white;
+}
+
+.pt-8-sub{
+  margin-top: 3%;
+    width: 80%;
+    margin-left: -5%;
+    line-height: 1.5;
+    color: white;
+    font-family: 'poppins';
+    font-size: 1.5rem;
+}
+
+/* PART EIGHT SIGNUP */
+.input-1{
+    position: absolute;
+    top: 140%;
+    left: -30px;
+   
+  
+}
+  
+.btn-1{
+    padding: 17px;
+    width: 83%;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border: solid 0.2px black;
+    border-radius: 7%;
+    font-family: 'open sans';
+    margin-left: 47%;
+    font-weight: 800;
+    font-family: 'poppins', sans-serif;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+  
+.email{
+    padding: 5%;
+    width: 130%;
+    font-weight: 800;
+    border: 0;
+    font-family: 'poppins', sans-serif;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
 }
 
 
